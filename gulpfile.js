@@ -16,7 +16,7 @@ const src = {
   html: `${srcPath}/**/*.html`,
   js: `${srcPath}/js/**/*.js`,
   img: `${srcPath}/img/*`,
-}
+};
 
 // Dest set to docs for github pages, feel free to change
 const destPath = 'docs';
@@ -25,7 +25,7 @@ const dest = {
   html: destPath,
   js: `${destPath}/js`,
   img: `${destPath}/img`,
-}
+};
 
 gulp.task('sass', () => {
   pump([
